@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.new-projects {
+    display: grid;
+    grid-template-rows: 25px 25px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.new-projects .item {
+    display: flex;
+    width: 50px;
+}
+
+.new-projects .item span {
+    background-color: #f8f9fa;
+}
+
+.new-projects button {
+    width: 110px;
+    height: 25px;
+    background-color: #0d6efd;
+    color: #fbfdff;
+    border: none;
+    border-radius: 5px;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+td {
+    height: 100px;
+}
+
+.delete-btn {
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.update-btn {
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #198754;
+    color: #ffffff;
+}

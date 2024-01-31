@@ -1,0 +1,38 @@
+.footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 3200px;
+    background-color: #202337;
+}
+
+.footer .content-2 {
+    padding: 20px 20px;
+}
+
+.footer .content-2 span {
+    color: #fd6e90;
+}
+
+.footer .icon {
+    display: flex;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.footer .icon div {
+    width: 35px;
+    height: 35px;
+    background-color: #fd6e90;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+}
+
+.footer .icon div a {
+    color: #eee;
+    text-decoration: none;
+}

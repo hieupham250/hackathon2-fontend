@@ -1,0 +1,27 @@
+.section-works {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 2500px;
+}
+
+.section-works .item {
+    width: 250px;
+    height: 100px;
+    border-radius: 12px;
+    background-color: #202337;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-works .item .number {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-works .item .active {
+    color: #716fff;
+}

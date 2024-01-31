@@ -1,0 +1,133 @@
+.Section-About {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 800px;
+}
+
+.head-about {
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    left: 43%;
+}
+
+.head-about span:first-child {
+    color: #eeeeee;
+}
+
+.head-about span:last-child {
+    color: #716fff;
+}
+
+.head-small {
+    width: fit-content;
+    height: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #eeeeee;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.box-about {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 20px 20px;
+    
+}
+
+.box-about .item-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box-about .item-1 .content-1 {
+    width: 600px;
+    height: fit-content;
+    text-align: start;
+}
+
+.box-about .item-1 .content-1 span {
+    font-weight: 700;
+}
+
+.box-about .item-1 .content-2 {
+    width: 600px;
+    height: fit-content;
+    text-align: start;
+}
+
+.box-about .info .infoHead {
+    font-size: 18px;
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+.box-about .item-2 {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.box-about .item-2 .photo {
+    background-color: #202337;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.box-about .item-2 .html {
+    background-color: #202337;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.box-about .item-2 .php {
+    background-color: #202337;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.box-about .item-2 .js {
+    background-color: #202337;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.item-2 .ratio {
+    width: 60px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    border: 6px solid #eeeeee;
+    border-radius: 50%;
+    gap: 10px;
+}
+

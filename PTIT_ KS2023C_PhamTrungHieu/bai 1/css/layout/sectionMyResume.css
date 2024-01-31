@@ -1,0 +1,73 @@
+.section-resume {
+    width: 100%;
+    position: absolute;
+    top: 1600px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-resume .head-resume {
+    width: fit-content;
+    position: relative;
+    left: 40%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.head-resume span:first-child {
+    color: #eeeeee;
+}
+
+.head-resume span:last-child {
+    color: #716fff;
+}
+
+.box-resume {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 20px 20px;
+}
+
+.box-resume .item-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-resume .head {
+    font-size: 20px;
+    font-weight: 700;
+    color: #eeeeee;
+}
+
+.box-resume .content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box-resume .content-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box-resume .item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-resume .content-child {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #202337;
+}
+
+.content-child .head {
+    color: #fd6e90  ;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+@import url('./layout/header.css');
+@import url('./layout/SectionAboutMe.css');
+@import url('./layout/sectionMyResume.css');
+@import url('./layout/sectionMyProjects.css');
+@import url('./layout/sectionWorks.css');
+@import url('./layout/sectionGetInTouch.css');
+@import url('./layout/footer.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #1a192d;
+    color: #a2a0b0;
+}

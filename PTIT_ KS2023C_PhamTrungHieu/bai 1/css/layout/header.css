@@ -1,0 +1,72 @@
+.header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.navbar {
+    width: 30px;
+    height: 30px;
+    margin: 20px 20px;
+    position: relative;
+    left: 600px;
+}
+
+.name {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    font-size: 44px;
+    font-weight: 700;
+    color: #eeeeee;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+.name span:last-child {
+    color: #716fff;
+}
+
+.img {
+    width: 400px;
+    height: 500px;
+}
+
+.content {
+    width: 300px;
+    height: 70px;
+    text-align: end;
+    position: absolute;
+    top: 220px;
+    left: 160px;
+}
+
+.web {
+    font-size: 40px;
+    position: absolute;
+    top: 453px;
+    right: 270px;
+    color: #eeeeee;
+}
+
+.web div {
+    width: 70px;
+    height: 6px;
+    background-color: #ff6f91;
+}
+
+.img2 {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #a2a0b0;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+}
